@@ -1,0 +1,84 @@
+.gloock-regular {
+  font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: no-repeat top center;
+  background-size: cover;
+  height: 100%;
+  /* filter: blur(10px); */
+  /* -webkit-filter: blur(10px); */
+}
+
+* {
+  font-family: "Gloock", serif;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 30px auto;
+  word-spacing: normal;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+h1 {
+  font-family: var(--main-page-font);
+  font-weight: bold;
+  font-size: 100px;
+  margin: 24px auto;
+}
+
+#logo {
+  max-width: 250px;
+  display: block;
+  margin: 30px auto;
+}
+
+.container {
+  max-width: 800px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: "Gloock", serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+table th,
+td {
+  border: 1px solid rgba(140, 140, 140, 0.7);
+  padding: 7px;
+  margin: 10px auto;
+}
+
+.ingredients {
+  text-align: left;
+  line-height: 30px;
+  margin: 20px;
+}
+
+.ingredients th {
+  font-weight: bold;
+}
+
+.howtodo {
+  font-weight: thin;
+  font-size: 16px;
+  margin: 20px;
+}
